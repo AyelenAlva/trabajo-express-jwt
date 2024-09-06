@@ -16,7 +16,6 @@ app.use(cors({ // Permitir solicitudes desde el front-end
     origin: [
         'http://localhost:5500',
         'http://localhost:3000',
-        'http://localhost:3001',
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true // Habilitar envío de cookies
